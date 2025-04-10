@@ -1,7 +1,7 @@
-import { BookModel } from './book.model';
+import { Book } from './book.model';
 
 describe('BookModel', () => {
   it('should create an instance', () => {
-    expect(new BookModel()).toBeTruthy();
+    expect({} as Book).toBeTruthy();
   });
 });

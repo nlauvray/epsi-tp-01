@@ -1,1 +1,126 @@
 /* You can add global styles to this file, and also import other style files */
+.invalid {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Main content styles */
+.main-content {
+  padding: 2rem;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+button[disabled] {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.invalid {
+  border-color: red;
+}
+
+/* Book list styles */
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px);
+  margin: 10px;
+}
+
+.book-actions button {
+  background-color: #28a745;
+  border-radius: 4px;
+  color: white;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}
+
+.add-book-button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
